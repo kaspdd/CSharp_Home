@@ -1,0 +1,15 @@
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\bin\Debug\net8.0\TrappersBR.exe
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\bin\Debug\net8.0\TrappersBR.deps.json
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\bin\Debug\net8.0\TrappersBR.runtimeconfig.json
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\bin\Debug\net8.0\TrappersBR.dll
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\bin\Debug\net8.0\TrappersBR.pdb
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\TrappersBR.GeneratedMSBuildEditorConfig.editorconfig
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\TrappersBR.AssemblyInfoInputs.cache
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\TrappersBR.AssemblyInfo.cs
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\TrappersBR.csproj.CoreCompileInputs.cache
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\TrappersBR.sourcelink.json
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\TrappersBR.dll
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\refint\TrappersBR.dll
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\TrappersBR.pdb
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\TrappersBR.genruntimeconfig.cache
+F:\Estudos\BackEnd\ProjetosCSharp\TrappersBR\obj\Debug\net8.0\ref\TrappersBR.dll
