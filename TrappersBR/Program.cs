@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Runtime.CompilerServices;
-using TrapperBR.Modelos;
+using TrappersBR.Modelos;
+using TrappersBR.Menus;
 
 Banda ricardoMoveis = new Banda("Ricardo Moveis");
 ricardoMoveis.AdicionarNota(new Avaliacao(10));
@@ -132,22 +133,6 @@ void MostrarBandasRegistradas()
     ExibirOpcoesDoMenu();
 }
 
-// void ExibirDetalhesDaBanda()
-// {
-//     ExibirTituloDaOpcao("Exibindo detalhes da Banda");
-//     Console.Write("Digite o nome da Banda que deseja conhecer melhor: ");
-//     string nomeDaBanda = Console.ReadLine()!; 
-//     if(bandasRegistradas.ContainsKey(nomeDaBanda))
-//     {
-//         Banda banda = bandasRegistradas[nomeDaBanda];
-//         Console.WriteLine($"\nA Media de avaliacoes da banda {nomeDaBanda} é: {banda.Media}.");
-//          Console.WriteLine("Aperte qualquer tecla para continuar...");
-//         Console.ReadKey();
-//         Console.Clear();
-//         ExibirOpcoesDoMenu();
-//     }
-// }
-
 void AvaliarBanda()
 {
     //digite qual artista deseja avaliar
@@ -194,41 +179,6 @@ void AvaliarBanda()
     
 }
 
-void MediaAvaliacaoBandas()
-{
-    mediaNovamente:
-    Console.Clear();
-    ExibirTituloDaOpcao("Media das aviliacoes dos artistas");
-    Console.Write("Digite o nome do artista que deseja verificar a media das avaliacoes: ");
-    string nomeDaBanda = Console.ReadLine()!;
-
-    if(bandasRegistradas.ContainsKey(nomeDaBanda))
-    {
-        Banda banda = bandasRegistradas[nomeDaBanda];
-        Console.WriteLine($"A mediaDasNotas das avaliacoes do artista {nomeDaBanda} é: {banda.Media}");
-    }
-    else
-    {
-        Console.WriteLine($"O artista {nomeDaBanda} nao foi encontrado );");
-    }
-    Console.WriteLine("Deseja realizar uma nova avaliacao? \nDigite 1 para (SIM)\nDigite 2 ou qualquer outra tecla para (NAO): ");
-    string opcaoAvaliacao = Console.ReadLine()!;
-    switch (opcaoAvaliacao)
-    {
-        case "1":
-            Console.Clear();
-            goto mediaNovamente;
-        default:
-            Console.WriteLine("Aguarde 2 segundos para ser direcionado ao menu...");
-            //A funcao Thread.Sleep(2000) faz com que o programa fique 2000 milesegundos parado antes da proxima acao.
-            Thread.Sleep(2000);
-            Console.Clear();
-            ExibirOpcoesDoMenu();
-            break;
-    }
-}
-
-
 //funcao para colocar a quantidade de asterisco de acordo com o tamanho da string titulo.
 void ExibirTituloDaOpcao(string titulo)
 {
@@ -243,11 +193,11 @@ void ExibirOpcoesDoMenu()
     opcaoInvalida:
     ExibirLogo();
     Console.WriteLine("Escolha uma opcao no nosso menu: \n");
-    Console.WriteLine("Digite 1 - Para cadastrar um Artista");
+    Console.WriteLine("Digite 1 - Para cadastrar uma banda");
     Console.WriteLine("Digite 2 - para cadastrar um album");
-    Console.WriteLine("Digite 3 - Para listar os Artitas");
+    Console.WriteLine("Digite 3 - Para listar as bandas");
     Console.WriteLine("Digite 4 - Para avaliar um artista");
-    Console.WriteLine("Digite 5 - Para exibir a media de um Artista");
+    Console.WriteLine("Digite 5 - Para exibir a media de uma banda");
     Console.WriteLine("Digite 6 - Para sair: ");
     string opcaoEscolhida = Console.ReadLine()!;
 
@@ -268,8 +218,9 @@ void ExibirOpcoesDoMenu()
             AvaliarBanda();
             break;
         case "5":
-            MediaAvaliacaoBandas();
-            
+            MenuExibirDetalhes menu = new MenuExibirDetalhes();
+            menu.Executar(bandasRegistradas);
+            ExibirOpcoesDoMenu();
             break;
         case "6":
             Console.WriteLine("Flwwwww...");
@@ -282,8 +233,7 @@ void ExibirOpcoesDoMenu()
 
 }
 
-
-
-
 ExibirOpcoesDoMenu();
+
+
 

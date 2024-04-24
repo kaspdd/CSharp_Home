@@ -1,6 +1,6 @@
 
 //o namespace aqui esta retratando o nome da pasta prinicipal que contem o projeto, seguido do nome da pasta que estao as classes modelo.
-namespace TrapperBR.Modelos;
+namespace TrappersBR.Modelos;
 
 internal class Banda
 {
@@ -44,5 +44,9 @@ internal class Banda
         {
             Console.WriteLine ($"Album: {album.Nome}\nGenero do Album: {album.Genero}\n - (Duracao do Album: {album.DuracaoTotal} segundos.)");
         }
+        Console.WriteLine($"A quantidade de album da banda é: {Album.ContadorDeAlbuns}");
+        
+        
+
     }
 }

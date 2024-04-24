@@ -1,4 +1,4 @@
-namespace TrapperBR.Modelos;
+namespace TrappersBR.Modelos;
 
 internal class Genero
 {

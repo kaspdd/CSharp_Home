@@ -1,11 +1,12 @@
 
-namespace TrapperBR.Modelos;
+namespace TrappersBR.Modelos;
 internal class Album
 {
     public Album(string nome, Genero genero)
     {
         Nome = nome;
         Genero = genero;
+        ContadorDeAlbuns++;
     }
 
     private List<Musica> musicas = new List<Musica>();
@@ -13,6 +14,7 @@ internal class Album
     public string Nome { get;}
     public int DuracaoTotal => musicas.Sum(m => m.Duracao);
     public Genero Genero { get; }
+    public static int ContadorDeAlbuns = 0;
     
 
     //metodos
@@ -21,11 +23,6 @@ internal class Album
     {
         musicas.Add (musica);
     }
-
-    // public void AdicionarGeneroAlbum (Genero genero)
-    // {
-    //     Genero = genero;
-    // }
 
     public void ExibirMusicasDoAlbum ()
     {   
