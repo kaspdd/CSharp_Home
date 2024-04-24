@@ -52,6 +52,7 @@ static void ExibirLogo()
 void ExibirOpcoesDoMenu()
 {
     opcaoInvalida:
+    Console.Clear();
     ExibirLogo();
     Console.WriteLine("Escolha uma opcao no nosso menu: \n");
     Console.WriteLine("Digite 1 - Para cadastrar uma banda");
