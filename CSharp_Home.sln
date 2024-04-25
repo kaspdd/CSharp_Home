@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrappersBR", "TrappersBR\Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaBancaria", "ContaBancaria\ContaBancaria.csproj", "{0A54A020-92DC-4C3D-96F3-6041CFFC705B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormasGeometricas", "FormasGeometricas\FormasGeometricas.csproj", "{A20B86FE-30EE-48C7-A261-9899E989BA78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0A54A020-92DC-4C3D-96F3-6041CFFC705B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A54A020-92DC-4C3D-96F3-6041CFFC705B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A54A020-92DC-4C3D-96F3-6041CFFC705B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20B86FE-30EE-48C7-A261-9899E989BA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20B86FE-30EE-48C7-A261-9899E989BA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20B86FE-30EE-48C7-A261-9899E989BA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20B86FE-30EE-48C7-A261-9899E989BA78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

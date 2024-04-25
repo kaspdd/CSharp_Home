@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ContaBancaria")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FormasGeometricas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9bab3c516205ee4ac52798934b87fc48a35bf76")]
-[assembly: System.Reflection.AssemblyProductAttribute("ContaBancaria")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ContaBancaria")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("FormasGeometricas")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FormasGeometricas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

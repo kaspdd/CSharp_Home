@@ -1,62 +1,68 @@
 ﻿using ContaBancaria.Modelos;
 
+Dictionary<int, Conta> tiposDeConta = new Dictionary<int, Conta>();
 
-void MenuPrincipal()
+tiposDeConta.Add(1, new ContaCorrente());
+tiposDeConta.Add(2, new ContaPoupanca());
+
+string opcaoOperacao = "";
+
+Console.WriteLine($"Bem vindo ao banco!");
+voltandoAoTopo:
+Console.WriteLine($"Escolha uma opcao:");
+Console.WriteLine($"Digite 1 para acessar a conta corrente:\nDigite 2 para acessar a conta poupanca: ");
+string opcao = Console.ReadLine()!;
+int opcaoNumerica = int.Parse(opcao);
+if (tiposDeConta.ContainsKey(opcaoNumerica))
 {
-    Console.Clear();
-    TituloModelo("Instituicao bancaria");
-    Console.WriteLine($"Escolha uma opcao:");
-    voltandoAoTopo:
-    Console.WriteLine($"Digite 1 para cadastrar uma conta bancaria");
-    string opcao = Console.ReadLine()!;
-    switch (opcao)
+    if (opcaoNumerica == 1)
     {
-        case "1":
-            CadastrarConta();
-            break;
+        Conta contaSelecionada = tiposDeConta[opcaoNumerica];
+        Console.WriteLine($"Voce escolheu a Conta corrente!");
+        opcaoOperacao = contaSelecionada.SacarOuDepositar();
+        switch (opcaoOperacao)
+        {
+            case "1":
+                Console.WriteLine($"Digite o valor que deseja sacar:");
+                double valorS = double.Parse(Console.ReadLine()!);
+                contaSelecionada.Sacar(valorS);
+                break;
+            case "2":
+                Console.WriteLine($"Digite o valor que deseja depositar:");
+                double valorD = double.Parse(Console.ReadLine()!);
+                contaSelecionada.Depositar(valorD);
+                break;
+        }
     }
-}
-
-void CadastrarConta()
-{
-    Console.Clear();
-    TituloModelo("Cadastrando uma conta:");
-    int id = 0;
-    Console.Write($"Digite o nome do Titular:");
-    string titular = Console.ReadLine()!;
-    id += 1;
-    Conta c = new Conta(id,titular);
-}
-
-
-
-
-void VoltandoAoMenu()
-{
-    Console.WriteLine($"Deseja voltar ao menu?");
-    VoltandoAoTopo:
-    Console.WriteLine($"Digite 1 para continuar\nDigite 2 para sair:");
-    
-    string opcao = Console.ReadLine()!;
-    switch (opcao)
+    else if(opcaoNumerica == 2)
     {
-        case "1":
-            Console.WriteLine($"Voltando ao Menu em 2 segundos...");
-            Thread.Sleep(2000);
-            MenuPrincipal();
-            break;
-        case "2":
-            Console.WriteLine("Saindo...");
-            break;
-        default:
-            Console.WriteLine($"Opcao invalida! Por favor digite uma opcao valida:");
-            goto VoltandoAoTopo;
+        Conta contaSelecionada = tiposDeConta[opcaoNumerica];
+        Console.WriteLine($"Voce escolheu a Conta poupanca!");
+        opcaoOperacao = contaSelecionada.SacarOuDepositar();
+        switch (opcaoOperacao)
+        {
+            case "1":
+                Console.WriteLine($"Digite o valor que deseja sacar:");
+                double valorS = double.Parse(Console.ReadLine()!);
+                contaSelecionada.Sacar(valorS);
+                break;
+            case "2":
+                Console.WriteLine($"Digite o valor que deseja depositar:");
+                double valorD = double.Parse(Console.ReadLine()!);
+                contaSelecionada.Depositar(valorD);
+                break;
+        }
+        
+    }
+    else
+    {
+        Console.WriteLine($"Opcao invalida!");
+        goto voltandoAoTopo;
+        
+    }
+    
+    
 
-    } 
 }
 
-void TituloModelo(string titulo)
-{
-    string traco = string.Empty.PadLeft(5,'-').PadRight(5,'-');
-    Console.WriteLine($"{traco}{titulo}{traco}");
-}
+
