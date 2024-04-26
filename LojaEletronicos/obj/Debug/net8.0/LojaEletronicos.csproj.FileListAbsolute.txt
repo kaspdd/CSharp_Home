@@ -1,0 +1,15 @@
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\bin\Debug\net8.0\LojaEletronicos.exe
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\bin\Debug\net8.0\LojaEletronicos.deps.json
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\bin\Debug\net8.0\LojaEletronicos.runtimeconfig.json
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\bin\Debug\net8.0\LojaEletronicos.dll
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\bin\Debug\net8.0\LojaEletronicos.pdb
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\LojaEletronicos.GeneratedMSBuildEditorConfig.editorconfig
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\LojaEletronicos.AssemblyInfoInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\LojaEletronicos.AssemblyInfo.cs
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\LojaEletronicos.csproj.CoreCompileInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\LojaEletronicos.sourcelink.json
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\LojaEletronicos.dll
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\refint\LojaEletronicos.dll
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\LojaEletronicos.pdb
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\LojaEletronicos.genruntimeconfig.cache
+F:\Estudos\BackEnd\CSharp_Home\LojaEletronicos\obj\Debug\net8.0\ref\LojaEletronicos.dll

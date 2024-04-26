@@ -22,12 +22,12 @@ internal class Conta
     public virtual void Sacar(double valor)
     {
         Saldo -= valor;
-        Console.WriteLine($"Foi sacado o valor de {valor}, atualmente a conta Poupanca tem {Saldo}");
+        Console.WriteLine($"Foi sacado o valor de {valor:c}, atualmente a conta Poupanca tem {Saldo:c}");
     }
 
     public virtual void Depositar(double valor)
     {
         Saldo += valor;
-        Console.WriteLine($"Foi depositado o valor de {valor}, atualmente a conta Poupanca tem {Saldo}");
+        Console.WriteLine($"Foi depositado o valor de {valor:c}, atualmente a conta Poupanca tem {Saldo:c}");
     }
 }

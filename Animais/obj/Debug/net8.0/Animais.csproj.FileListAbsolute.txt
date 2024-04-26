@@ -1,0 +1,15 @@
+F:\Estudos\BackEnd\CSharp_Home\Animais\bin\Debug\net8.0\Animais.exe
+F:\Estudos\BackEnd\CSharp_Home\Animais\bin\Debug\net8.0\Animais.deps.json
+F:\Estudos\BackEnd\CSharp_Home\Animais\bin\Debug\net8.0\Animais.runtimeconfig.json
+F:\Estudos\BackEnd\CSharp_Home\Animais\bin\Debug\net8.0\Animais.dll
+F:\Estudos\BackEnd\CSharp_Home\Animais\bin\Debug\net8.0\Animais.pdb
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\Animais.GeneratedMSBuildEditorConfig.editorconfig
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\Animais.AssemblyInfoInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\Animais.AssemblyInfo.cs
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\Animais.csproj.CoreCompileInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\Animais.sourcelink.json
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\Animais.dll
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\refint\Animais.dll
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\Animais.pdb
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\Animais.genruntimeconfig.cache
+F:\Estudos\BackEnd\CSharp_Home\Animais\obj\Debug\net8.0\ref\Animais.dll
