@@ -1,0 +1,15 @@
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\bin\Debug\net8.0\BeeCrowd.exe
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\bin\Debug\net8.0\BeeCrowd.deps.json
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\bin\Debug\net8.0\BeeCrowd.runtimeconfig.json
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\bin\Debug\net8.0\BeeCrowd.dll
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\bin\Debug\net8.0\BeeCrowd.pdb
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\BeeCrowd.GeneratedMSBuildEditorConfig.editorconfig
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\BeeCrowd.AssemblyInfoInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\BeeCrowd.AssemblyInfo.cs
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\BeeCrowd.csproj.CoreCompileInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\BeeCrowd.sourcelink.json
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\BeeCrowd.dll
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\refint\BeeCrowd.dll
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\BeeCrowd.pdb
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\BeeCrowd.genruntimeconfig.cache
+F:\Estudos\BackEnd\CSharp_Home\BeeCrowd\obj\Debug\net8.0\ref\BeeCrowd.dll
