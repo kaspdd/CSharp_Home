@@ -8,7 +8,7 @@ internal class MenuExibirDetalhes : Menu
     {
     mediaNovamente:
         base.Executar(bandasRegistradas);
-        ExibirTituloDaOpcao("Media das aviliacoes dos artistas");
+        ExibirTituloDaOpcao("Exibir detalhes");
         Console.Write("Digite o nome do artista que deseja verificar a media das avaliacoes: ");
         string nomeDaBanda = Console.ReadLine()!;
 
@@ -16,12 +16,18 @@ internal class MenuExibirDetalhes : Menu
         {
             Banda banda = bandasRegistradas[nomeDaBanda];
             Console.WriteLine($"A media das avaliacoes da banda {nomeDaBanda} é: {banda.Media}");
+            Console.WriteLine($"Segue os albuns da Banda {nomeDaBanda} e suas medias:");
+            ExibirTituloDaOpcao("Discorafia");
+            foreach (Album album in banda.Albums)
+            {
+                Console.WriteLine($"{album.Nome} -> {album.Media}");
+            }
         }
         else
         {
             Console.WriteLine($"O artista {nomeDaBanda} nao foi encontrado );");
         }
-        Console.WriteLine("Deseja realizar uma nova avaliacao? \nDigite 1 para (SIM)\nDigite 2 ou qualquer outra tecla para (NAO): ");
+        Console.WriteLine("\nDeseja realizar uma nova avaliacao? \nDigite 1 para (SIM)\nDigite 2 ou qualquer outra tecla para (NAO): ");
         string opcaoAvaliacao = Console.ReadLine()!;
         switch (opcaoAvaliacao)
         {

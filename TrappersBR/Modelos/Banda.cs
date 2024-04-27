@@ -2,7 +2,7 @@
 //o namespace aqui esta retratando o nome da pasta prinicipal que contem o projeto, seguido do nome da pasta que estao as classes modelo.
 namespace TrappersBR.Modelos;
 
-internal class Banda
+internal class Banda : IAvaliavel
 {
     public Banda(string nome)
     {
@@ -10,7 +10,7 @@ internal class Banda
     }
     private List<Album> albums = new List<Album>();
     private List<Avaliacao> notas = new List<Avaliacao>();
-
+    public List<Album> Albums => albums;
     //para possibilitar que o parametro abaixo consiga utlizar o get(somente leitura) somente se o construtor estiver pedindo algo ou setando um valor direto no parametro.
     public string Nome { get; }
     //pegando a media das notas das bandas, porem com uma verificacao, pois se nao tiver notas na banda, ele retornara 0.

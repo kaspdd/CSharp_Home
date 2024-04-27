@@ -7,13 +7,13 @@ internal class MenuRegistrarBandas : Menu
     {
     registrarNovamente:
         base.Executar(bandasRegistradas);
-        ExibirTituloDaOpcao("Registrar Bandas");
-        Console.Write("Digite o nome do Artista: ");
+        ExibirTituloDaOpcao("Registrar Banda");
+        Console.Write("Digite o nome da banda: ");
         string nomeDaBanda = Console.ReadLine()!;
-        Console.WriteLine($"\nO Artista {nomeDaBanda} foi Registrado com sucesso!!\n");
+        Console.WriteLine($"\nA banda {nomeDaBanda} foi Registrado com sucesso!!\n");
         Banda banda = new Banda(nomeDaBanda);
         bandasRegistradas.Add(nomeDaBanda, banda);
-        Console.WriteLine("Deseja registrar um novo Artista?\nDigite 1 para (SIM)\nDigite 2 ou qualquer outra tecla para (NAO)");
+        Console.WriteLine("Deseja registrar uma noa banda?\nDigite 1 para (SIM)\nDigite 2 ou qualquer outra tecla para (NAO)");
         string opcaoRegistrarBandas = Console.ReadLine()!;
         switch (opcaoRegistrarBandas)
         {
