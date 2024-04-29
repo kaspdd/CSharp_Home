@@ -38,11 +38,11 @@ internal class Banda : IAvaliavel
 
     public void ExibirDiscografia ()
     {
-        Console.WriteLine($"Discografia do Artista {Nome}:");
+        Console.WriteLine($"Discografia da Banda {Nome}:");
 
         foreach(var album in albums)
         {
-            Console.WriteLine ($"Album: {album.Nome}\nGenero do Album: {album.Genero}\n - (Duracao do Album: {album.DuracaoTotal} segundos.)");
+            Console.WriteLine ($"Album: {album.Nome}\nGenero do Album: {album.Genero.Nome}\n - (Duracao do Album: {album.DuracaoTotal} segundos.)");
         }
         Console.WriteLine($"A quantidade de album da banda é: {Album.ContadorDeAlbuns}");
         

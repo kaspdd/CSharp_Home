@@ -8,8 +8,10 @@ internal class Menu
         string traco = string.Empty.PadLeft(5,'-').PadRight(5,'-');
         Console.WriteLine($"{traco}{texto}{traco}");
     }
-    public virtual void Executar(Dictionary<int,Eletronico> eletronicos)
+    public virtual void Executar(Dictionary<string,Eletronico> eletronicos)
     {
         Console.Clear();
     }
+
+    
 }

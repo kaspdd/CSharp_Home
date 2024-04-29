@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrappersBR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c9d39f95f5041486c927aa49c545a7db48e66ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrappersBR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrappersBR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

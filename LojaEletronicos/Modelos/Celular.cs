@@ -13,16 +13,15 @@ internal class Celular : Eletronico
     public int QuantidadeCelular { get; set; }
     public string ResumoCelular => $"Id: {IdCelular} Modelo: {ModeloCelular} Quantidade: {QuantidadeCelular}";
 
-    public override void ExibirDetalhes()
-    {
-        base.ExibirDetalhes();
-        ModeloTiuloMenu("Celulares");
-        foreach(var c in Celulares)
-        {
-            Console.WriteLine(ResumoCelular);
-            
-        }
-    }
+    // public override void ExibirDetalhes()
+    // {
+    //     base.ExibirDetalhes();
+    //     ModeloTiuloMenu("Celulares");
+    //     foreach(var c in Celulares)
+    //     {
+    //         Console.WriteLine(ResumoCelular);
+    //     }
+    // }
 
     public override void Vender(int valor)
     {

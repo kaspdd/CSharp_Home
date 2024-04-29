@@ -18,10 +18,11 @@ internal class MenuExibirDetalhes : Menu
             Console.WriteLine($"A media das avaliacoes da banda {nomeDaBanda} é: {banda.Media}");
             Console.WriteLine($"Segue os albuns da Banda {nomeDaBanda} e suas medias:");
             ExibirTituloDaOpcao("Discorafia");
-            foreach (Album album in banda.Albums)
-            {
-                Console.WriteLine($"{album.Nome} -> {album.Media}");
-            }
+            // foreach (Album album in banda.Albums)
+            // {
+            //     Console.WriteLine($"{album.Nome} -> {album.Media}");
+            // }
+            banda.ExibirDiscografia();
         }
         else
         {

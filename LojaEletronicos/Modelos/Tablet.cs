@@ -13,15 +13,15 @@ internal class Tablet : Eletronico
     public int QuantidadeTablet { get; set; }
     public string ResumoTablet => $"Id: {IdTablet} Modelo: {ModeloTablet} Quantidade: {QuantidadeTablet}";
 
-    public override void ExibirDetalhes()
-    {
-        base.ExibirDetalhes();
-        ModeloTiuloMenu("Tablets");
-        foreach(var t in Tablets)
-        {
-            Console.WriteLine(ResumoTablet);
-        }
-    }
+    // public override void ExibirDetalhes()
+    // {
+    //     base.ExibirDetalhes();
+    //     ModeloTiuloMenu("Tablets");
+    //     foreach(var t in Tablets)
+    //     {
+    //         Console.WriteLine(ResumoTablet);
+    //     }
+    // }
 
     public override void Vender(int valor)
     {

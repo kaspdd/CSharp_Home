@@ -13,15 +13,15 @@ internal class Notebook : Eletronico
     public int QuantidadeNotebook { get; set; }
     public string ResumoNotebook => $"Id: {IdNotebook} Modelo: {ModeloNotebook} Quantidade: {QuantidadeNotebook}";
 
-    public override void ExibirDetalhes()
-    {
-        base.ExibirDetalhes();
-        ModeloTiuloMenu("Notebooks");
-        foreach(var n in Notebooks)
-        {
-            Console.WriteLine(ResumoNotebook);       
-        }
-    }
+    // public override void ExibirDetalhes()
+    // {
+    //     base.ExibirDetalhes();
+    //     ModeloTiuloMenu("Notebooks");
+    //     foreach(var n in Notebooks)
+    //     {
+    //         Console.WriteLine(ResumoNotebook);       
+    //     }
+    // }
 
     public override void Vender(int valor)
     {
