@@ -11,9 +11,11 @@ internal class Album : IAvaliavel
 
     private List<Musica> musicas = new List<Musica>();
     private List<Avaliacao> notas = new();
+    public List<Musica> Musicas => musicas;
     //propriedades, pois tem get e set
     public string Nome { get; }
     public int DuracaoTotal => musicas.Sum(m => m.Duracao);
+    public static int ContadorDeAlbuns = 0;
     public Genero Genero { get; }
 
     public double Media
@@ -24,32 +26,28 @@ internal class Album : IAvaliavel
             else return notas.Average(m => m.Nota);
         }
     }
-
-public static int ContadorDeAlbuns = 0;
-
-
-//metodos
-//metodo para adicionar musicas na list<Musica>
-public void AdicionarMusica(Musica musica)
-{
-    musicas.Add(musica);
-}
-
-public void ExibirMusicasDoAlbum()
-{
-    Console.WriteLine($"Segue as musicas do album: {Nome}: \n");
-
-    foreach (var musica in musicas)
+    //metodos
+    //metodo para adicionar musicas na list<Musica>
+    public void AdicionarMusica(Musica musica)
     {
-        Console.WriteLine($"Musica: {musica.Nome}");
+        musicas.Add(musica);
     }
 
-    Console.WriteLine($"O genero do album é {Genero.Nome} e ele tem a duracao total é de {DuracaoTotal} segundos");
+    public void ExibirMusicasDoAlbum()
+    {
+        Console.WriteLine($"Segue as musicas do album: {Nome}: \n");
 
-}
+        foreach (var musica in musicas)
+        {
+            Console.WriteLine($"Musica: {musica.Nome}");
+        }
 
-public void AdicionarNota(Avaliacao nota)
-{
-    notas.Add(nota);
-}
+        Console.WriteLine($"O genero do album é {Genero.Nome} e ele tem a duracao total é de {DuracaoTotal} segundos");
+
+    }
+
+    public void AdicionarNota(Avaliacao nota)
+    {
+        notas.Add(nota);
+    }
 }

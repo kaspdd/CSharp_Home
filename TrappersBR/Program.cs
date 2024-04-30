@@ -23,8 +23,9 @@ opcoes.Add(2, new MenuRegistrarAlbum());
 opcoes.Add(3, new MenuMostrarBandasRegistradas());
 opcoes.Add(4, new MenuAvaliarBanda());
 opcoes.Add(5, new MenuAvaliarAlbum());
-opcoes.Add(6, new MenuExibirDetalhes());
-opcoes.Add(7, new MenuSair());
+opcoes.Add(6, new MenuAvaliarMusica());
+opcoes.Add(7, new MenuExibirDetalhes());
+opcoes.Add(-1, new MenuSair());
 
 const string mensagemDeBoasVindas = "Bem vindo a Galery dos Trappers Br!\n";
 
@@ -61,8 +62,9 @@ void ExibirOpcoesDoMenu()
     Console.WriteLine("Digite 3 - Para listar as bandas");
     Console.WriteLine("Digite 4 - Para avaliar uma banda");
     Console.WriteLine("Digite 5 - Para avaliar um album");
-    Console.WriteLine("Digite 6 - Para exibir a media de uma banda");
-    Console.WriteLine("Digite 7 - Para sair: ");
+    Console.WriteLine("Digite 6 - Para avaliar uma musica");
+    Console.WriteLine("Digite 7 - Para exibir de uma banda");
+    Console.WriteLine("Digite -1 - Para sair: ");
     string opcaoEscolhida = Console.ReadLine();
     int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
     if (opcoes.ContainsKey(opcaoEscolhidaNumerica))
@@ -70,7 +72,7 @@ void ExibirOpcoesDoMenu()
         Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
         menuASerExibido.Executar(bandasRegistradas);
         //if para voltar ao menu principal, ou seja, qualquer valor que seja fora do range (1,7) ele vai voltar para o menu
-        if(opcaoEscolhidaNumerica > 0 &&  opcaoEscolhidaNumerica < 7)
+        if(opcaoEscolhidaNumerica < -1 &&  opcaoEscolhidaNumerica > 7)
         {
             Console.WriteLine($"Opcao invalida!");
             goto opcaoInvalida;

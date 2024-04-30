@@ -1,6 +1,6 @@
 using System.Reflection.Metadata;
 namespace TrappersBR.Modelos;
-internal class Musica
+internal class Musica : IAvaliavel
 {
     //metodod construtor
     public Musica(string nome, int duracao, Banda artista, Genero genero)
@@ -10,6 +10,7 @@ internal class Musica
         Artista = artista;
         Genero = genero;
     }
+    private List<Avaliacao> notas = new();
     //
     public string Nome { get;}
     public Banda Artista {get; }
@@ -18,15 +19,25 @@ internal class Musica
     public Genero Genero { get; }
     public string DescricaoResumida =>
     $"A musica {Nome} do genero {Genero.Nome} pertence ao artista {Artista}";
-        
+    public double Media
+    {
+        get
+        {
+            if (notas.Count == 0) return 0;
+            else return notas.Average(m => m.Nota);
+        }
+    }
     
-
-
     //metodos
     // public void AdicionarGeneroDaMusica(Genero genero)
     // {
     //    Genero = genero;
     // }
+
+    public void AdicionarNota(Avaliacao nota)
+    {
+        notas.Add(nota);
+    }
     public void ExibirFichaTecnicaDaMusica()
     {
         Console.WriteLine($"Musicas:");
