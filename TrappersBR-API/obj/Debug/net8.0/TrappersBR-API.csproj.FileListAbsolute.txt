@@ -1,0 +1,15 @@
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\bin\Debug\net8.0\TrappersBR-API.exe
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\bin\Debug\net8.0\TrappersBR-API.deps.json
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\bin\Debug\net8.0\TrappersBR-API.runtimeconfig.json
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\bin\Debug\net8.0\TrappersBR-API.dll
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\bin\Debug\net8.0\TrappersBR-API.pdb
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\TrappersBR-API.GeneratedMSBuildEditorConfig.editorconfig
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\TrappersBR-API.AssemblyInfoInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\TrappersBR-API.AssemblyInfo.cs
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\TrappersBR-API.csproj.CoreCompileInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\TrappersBR-API.sourcelink.json
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\TrappersBR-API.dll
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\refint\TrappersBR-API.dll
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\TrappersBR-API.pdb
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\TrappersBR-API.genruntimeconfig.cache
+F:\Estudos\BackEnd\CSharp_Home\TrappersBR-API\obj\Debug\net8.0\ref\TrappersBR-API.dll

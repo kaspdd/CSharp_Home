@@ -3,6 +3,9 @@
 using System.Runtime.CompilerServices;
 using TrappersBR.Modelos;
 using TrappersBR.Menus;
+using OpenAI_API;
+
+var client = new OpenAIAPI("");
  
 Banda ricardoMoveis = new Banda("Ricardo Moveis");
 ricardoMoveis.AdicionarNota(new Avaliacao(10));
