@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TrappersBR-API")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Atividade-Json")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("TrappersBR-API")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TrappersBR-API")]
+[assembly: System.Reflection.AssemblyProductAttribute("Atividade-Json")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Atividade-Json")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
