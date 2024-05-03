@@ -5,6 +5,8 @@ namespace TrappersBR_API.Filtros;
 
 internal class LinqFilter
 {
+    
+    
     public static void FiltrarTodosOsGenerosMusicais(List<Musica> musicas)
     {
         //essa linha e a declaracao de uma variavel sem tipo definido que sera responsavel por amazenar os generos de musica da lista de musicas.
@@ -38,6 +40,17 @@ internal class LinqFilter
         foreach(var musica in musicasDoArtista)
         {
             Console.WriteLine($"- {musica.Nome}");
+        }
+        
+    }
+
+    public static void FiltrarMusicaPelaNota(List<Musica> musicas)
+    {
+        var musicasPelaNota = musicas.Where(musica => musica.Tonalidade.Equals("C#")).ToList();
+        Console.WriteLine($"Todas as musicas com a Nota C#");
+        foreach (var musica in musicasPelaNota)
+        {
+            Console.WriteLine($"- {musica.Nome}"); 
         }
         
     }

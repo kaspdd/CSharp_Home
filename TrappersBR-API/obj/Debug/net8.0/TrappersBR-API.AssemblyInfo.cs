@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrappersBR-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c237d7868792b74de5ea602a6d02d47ff92cd09d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrappersBR-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrappersBR-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

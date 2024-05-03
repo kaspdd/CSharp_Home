@@ -13,6 +13,7 @@ using (HttpClient client = new HttpClient())
         //tudo isso esta sendo armazenado na variavel var
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta);
         Console.WriteLine($"{musicas.Count} musicas");
+        //musicas[1].ExibirDetalhesDaMusica();
 
         //chamando a funcao usando o linq para tal ato.
 
@@ -35,16 +36,9 @@ using (HttpClient client = new HttpClient())
         
         // musicasPreferidasDoCarlos.ExibirMusicasFavoritas();
 
-        var musicasPreferidasDaJuju = new MusicasPreferidas("Juju");
-        musicasPreferidasDaJuju.AdicionarMusicasFavoritas(musicas[5]);
-        musicasPreferidasDaJuju.AdicionarMusicasFavoritas(musicas[37]);
-        musicasPreferidasDaJuju.AdicionarMusicasFavoritas(musicas[200]);
-        musicasPreferidasDaJuju.AdicionarMusicasFavoritas(musicas[1610]);
-        musicasPreferidasDaJuju.AdicionarMusicasFavoritas(musicas[1995]);
-        
-        musicasPreferidasDaJuju.ExibirMusicasFavoritas();
+        LinqFilter.FiltrarMusicaPelaNota(musicas);
 
-        musicasPreferidasDaJuju.GerarArquivoJson();
+
         
     }
     catch (Exception ex)

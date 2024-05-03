@@ -12,13 +12,13 @@ internal class Usuario
     public int Idade {get; }
     public string Email {get;}
 
+    public string Resumo => $"Nome: {Nome}\nIdade: {Idade}\nEmail: {Email}\n";
+    
     public void GerarArquivoJson(string nomeArquivo)
     {
         string json = JsonSerializer.Serialize(new 
         {
-            nome = Nome,
-            idade = Idade,
-            email = Email
+            resumo = Resumo
         });
         string nomeDoArquivo = $"Usuarios cadastrados - {nomeArquivo}.json";
         File.WriteAllText(nomeDoArquivo, json);

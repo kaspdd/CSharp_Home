@@ -10,6 +10,7 @@ internal class MusicasPreferidas
         Nome = nome;
         ListaDeMusicasFavoritas = new List<Musica>();
     }
+    
     public string Nome { get; set; }
     public List<Musica> ListaDeMusicasFavoritas { get; }
 

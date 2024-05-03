@@ -1,0 +1,15 @@
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\bin\Debug\net8.0\Atividade-Json.exe
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\bin\Debug\net8.0\Atividade-Json.deps.json
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\bin\Debug\net8.0\Atividade-Json.runtimeconfig.json
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\bin\Debug\net8.0\Atividade-Json.dll
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\bin\Debug\net8.0\Atividade-Json.pdb
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\Atividade-Json.GeneratedMSBuildEditorConfig.editorconfig
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\Atividade-Json.AssemblyInfoInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\Atividade-Json.AssemblyInfo.cs
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\Atividade-Json.csproj.CoreCompileInputs.cache
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\Atividade-Json.sourcelink.json
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\Atividade-Json.dll
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\refint\Atividade-Json.dll
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\Atividade-Json.pdb
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\Atividade-Json.genruntimeconfig.cache
+F:\Estudos\BackEnd\CSharp_Home\Atividade-Json\obj\Debug\net8.0\ref\Atividade-Json.dll
